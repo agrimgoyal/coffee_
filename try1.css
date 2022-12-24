@@ -1,0 +1,236 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+}
+header{
+  /*background-image: url(./bckg.png);*/
+  height: fit-content;
+  background-size: cover;
+  background-position: center;
+}
+ul{
+  float: left;
+  padding-right: 100px;
+  padding-top: 30px;
+  list-style-type: none;
+}
+ul li{
+  float: left;
+  display: inline-block;
+}
+ul li a{
+  color: black;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 20px ;
+  padding-left: 10px;
+  padding-right: 10px; 
+  border-right: 0px solid black;
+}
+ul li a:hover{
+  background-color: transparent;
+  color: brown;
+}
+.nav{
+  margin-top: 0%;
+  margin-left: 31%;
+}
+.logo_main{
+  width: 300px;
+  align-self: center;
+  margin-left: 40%;
+  margin-top: 2%;
+}
+.logos {
+  display: flex;
+}
+.test{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 33%;
+}
+.bottom{
+  list-style-type: none;
+  margin-bottom: 5%;
+  height: 40px;
+  width: 40px;
+  margin-left: 43.5%;
+}
+.bottom2{
+  margin-bottom: 8%;
+  font-weight: bolder;
+  font-size: 20px;
+  text-align: center;
+}
+.bottom img{
+  padding-right: 5px;
+}
+.start_text_heading{
+  margin-top: -40%;
+  color: black;
+  font-size: 50px;
+  font-weight: bolder;
+  text-align: center;
+}
+.columns{
+  height: 400px;
+  margin-top: 0%;
+  border : 0px solid black;
+  display: flex;
+}
+.column1{
+  height: 80vh;
+  margin-top: 6%;
+  border : 0px solid black;
+  background-image: url(./bckg.jpg);
+  /*background-size: contain;*/
+  background-repeat: no-repeat;
+  /*background-position: 100% 30%;*/
+  opacity: 0.8;
+}
+.heading{
+  font-size: 45px;
+  color: white;
+  text-align: center;
+  font-weight: 700;
+  padding-top: 15%;
+}
+.content_box{
+  margin-left: 23%;
+  margin-right: 23%;
+  margin-top: 2%;
+  text-align: center;
+}
+.content1{
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 5%;
+  line-height: 25px;
+}
+.shop_coffee{
+  color: black;
+  height: 400px;
+  /*float: left;*/
+  width: 50%;
+  border-right: 1px solid grey;
+  margin-top: 3%;
+  /*align-items: center;*/
+  /*justify-content: center;*/
+  /*display: inline;*/
+  }
+.shop{
+  padding-top: 10%;
+  font-weight: bolder;
+  font-size: 50px;
+  text-align: center;
+  text-align-last: center;
+  color: black;
+}
+.coffee_img img{
+  margin-top: 50px;
+  /*padding-left: 0;*/
+  /*padding-right: 0;*/
+  margin-left: 18%;
+  /*margin-right: 40%;*/
+  /*align-content: center;*/
+  /*align-items: center;*/
+  /*margin-left: auto;*/
+  /*margin-right:  auto;*/
+  height: 150px;
+  /*width: 150px;*/
+  /*display: block;*/
+  /*position: absolute;*/
+}
+.mug_img img{
+  /*float: right;*/
+  margin-top: 50px;
+  /*margin-right: 33%;*/
+  height: 150px;
+}
+.shop_now
+{  
+  padding-top: 0%;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  text-align-last: center;
+  color: black;
+  text-decoration: none;
+}
+.mb20{
+  margin-bottom: 20px;
+}
+.mb100{
+  margin-bottom: 100px;
+}
+.shop_now:hover{
+  color: skyblue;
+}
+.shop_mugs{
+  float: right;
+  height: 400px;
+  width: 50%;
+  border : 0px solid black;
+}
+.multi{
+  width : 100%;
+  height: 1000px;
+  border: 0px solid black;
+}
+.column2{
+  height: 750px;
+  margin-top: 8%;
+  border : 0px solid black;
+}
+.pic1{
+  margin-top: 3%;
+  height: 500px;
+  width: 100%;
+  position: relative;
+}
+.pic2{
+  background-image: url(./pic2.png);
+  width: 100%;
+  height: 100%;
+}
+.pic3{
+  background-image: url(./contact-image.jpg);
+  height: 500px;
+  position: relative;
+}
+.btn_left{
+  float: left;
+  margin-left: 10px;
+  margin-top: 15%;
+  align-self: auto;
+  height: auto;
+  width: 50px;
+  background-color: black;
+  opacity: 0.6;
+  border-radius: 100%;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
+.btn_right{
+  float: right;
+  margin-right: 10px;
+  margin-top: 15%;
+  align-self: auto;
+  height: auto;
+  width: 50px;
+  background-color: black;
+  opacity: 0.6;
+  border-radius: 100%;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
